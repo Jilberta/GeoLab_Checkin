@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity
     private boolean addGeofence;
     private PendingIntent mGeofencePendingIntent;
 
-    private static final double LATITUDE = 41.7178325;
-    private static final double LONGITUDE = 44.7848647;
-    private static final float GEOFENCE_RADIUS = 10000;
+    private static final double LATITUDE = 41.7178575;
+    private static final double LONGITUDE = 44.7847484;
+    private static final float GEOFENCE_RADIUS = 1000;
 
     private static final String SHARED_PREFERENCE = "GeoPref";
     private static final String GEOFENCE_IS_ADDED_KEY = "GeofenceAdded";
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+
         mSharedPreferences = getSharedPreferences(SHARED_PREFERENCE,
                 MODE_PRIVATE);
 
@@ -91,6 +92,8 @@ public class MainActivity extends AppCompatActivity
                             .build()
             );
         }
+
+
 
         buildGoogleApiClient();
     }

@@ -31,6 +31,10 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
     protected static final String TAG = "geofence-service";
 
+    public GeofenceTransitionsIntentService() {
+        super(TAG);
+    }
+
     /**
      * Creates an IntentService.  Invoked by your subclass's constructor.
      *
