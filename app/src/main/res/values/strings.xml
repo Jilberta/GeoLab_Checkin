@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GeoLab CheckIn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- GeoFence Services -->
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        ხარვეზი: გთხოვთ ცადოთ მოგვიანებით
+    </string>
+        <string name="geofence_transition_invalid_type">
+        გადასვლის ხარვეზი: გთხოვთ ცადოთ მოგვიანებით
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">შევიდა</string>
+    <string name="geofence_transition_exited">გამოვიდა</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+</resources>
